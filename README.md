@@ -10,6 +10,6 @@ A simple webserver for [SpaceAPI](https://spaceapi.io/#schema), written in Go.
 $ cd spaceapi
 $ go build
 ```
-3. Run the `main.exe`. 
+3. Run the `main` (or `main.exe` on Windows) binary. 
 It will host the server under 8080, and sending the GET request to `/get` 
 endpoint will return the info from the file
